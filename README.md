@@ -11,7 +11,7 @@
 
 
 ```sh
-ya pkg add owner/my-plugin
+ya pkg add damjee/onedark
 ```
 
 ## ⚙️ Usage
