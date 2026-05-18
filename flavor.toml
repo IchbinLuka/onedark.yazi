@@ -1,9 +1,5 @@
-[manager]
+[mgr]
 cwd = { fg = "#98C379" }
-
-# Hovered
-hovered = { bg = "#282C34" }
-preview_hovered = { underline = true }
 
 # Find
 find_keyword = { fg = "#E06C75", italic = true, underline = true }
@@ -18,11 +14,6 @@ marker_cut = { fg = "#ABB2BF", bg = "#E06C75" }
 marker_marked = { fg = "#ABB2BF", bg = "#56B6C2" }
 marker_selected = { fg = "#ABB2BF", bg = "#E5C07B" }
 
-# Tab
-tab_active = { bg = "#282C34", fg = "#61AFEF" }
-tab_inactive = {}
-tab_width = 1
-
 # Count
 count_copied = { fg = "#98C379", bg = "#282C34" }
 count_cut = { fg = "#E06C75", bg = "#282C34" }
@@ -33,6 +24,11 @@ border_symbol = "│"
 border_style = { fg = "#282C34" }
 
 
+[tabs]
+active = { bg = "#282C34", fg = "#61AFEF" }
+inactive = {}
+
+
 [mode]
 normal_main = { fg = "#282C34", bg = "#61AFEF", bold = true }
 normal_alt = { fg = "#282C34", bg = "#ABB2BF", bold = false }
@@ -40,6 +36,10 @@ select_main = { fg = "#282C34", bg = "#98C379", bold = true }
 select_alt = { fg = "#282C34", bg = "#ABB2BF", bold = false }
 unset_main = { fg = "#282C34", bg = "#E06C75", bold = true }
 unset_alt = { fg = "#282C34", bg = "#ABB2BF", bold = false }
+
+[indicator]
+current = { bg = "#282C34" }
+preview = { underline = true }
 
 [status]
 overall = {}
@@ -137,6 +137,6 @@ rules = [
     { mime = "application/vnd.*", fg = "#98C379" },
 
     # Fallback
-    { name = "*", fg = "#ABB2BF" },
-    { name = "*/", fg = "#61AFEF" },
+    { url = "*", fg = "#ABB2BF" },
+    { url = "*/", fg = "#61AFEF" },
 ]
