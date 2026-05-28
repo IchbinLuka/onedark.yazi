@@ -140,3 +140,33 @@ rules = [
     { url = "*", fg = "#ABB2BF" },
     { url = "*/", fg = "#61AFEF" },
 ]
+
+[icon]
+prepend_dirs = [
+  { name = "Desktop", text = "󰍹", fg = "#61afef" },
+  { name = "Documents", text = "󱉟", fg = "#61afef" },
+  { name = "Books", text = "", fg = "#61afef" },
+  { name = "Study", text = "󰗚", fg = "#61afef" },
+  { name = "Downloads", text = "", fg = "#61afef" },
+  { name = "Games", text = "", fg = "#61afef" },
+  { name = "Music", text = "", fg = "#61afef" },
+  { name = "Pictures", text = "", fg = "#61afef" },
+  { name = "Photos", text = "", fg = "#61afef" },
+  { name = "Screenshots", text = "󰹑", fg = "#61afef" },
+  { name = "Wallpapers", text = "󰸉", fg = "#61afef" },
+  { name = "Programming", text = "󰘦", fg = "#61afef" },
+  { name = "Code", text = "", fg = "#61afef" },
+  { name = "Public", text = "󰀑", fg = "#61afef" },
+  { name = "Source", text = "󰘬", fg = "#61afef" },
+  { name = "Shares", text = "", fg = "#61afef" },
+  { name = "Templates", text = "", fg = "#61afef" },
+  { name = "Utility", text = "", fg = "#61afef" },
+  { name = "Tools", text = "", fg = "#61afef" },
+  { name = "Vault", text = "", fg = "#61afef" },
+  { name = "Videos", text = "", fg = "#61afef" },
+  { name = "Workspaces", text = "󰍺", fg = "#61afef" },
+  { name = "Dashboard", text = "", fg = "#61afef" },
+  { name = "Cloud", text = "󰅟", fg = "#61afef" },
+]
+
+prepend_conds = [{ if = "dir", text = "", fg = "#61afef" }]
